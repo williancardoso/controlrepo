@@ -8,6 +8,6 @@ mod 'puppetlabs/stdlib', '4.13.1'
 mod 'puppetlabs/concat', '2.2.0'
 mod 'puppet-staging', '2.0.1'
 
-#mod 'instruct/puppet',
-#    :git => 'https://gitlab.com/instruct/puppet-puppet.git',
+#mod 'nome_module',
+#    :git => 'https://endereço_do_git',
 #    :ref => 'master'
