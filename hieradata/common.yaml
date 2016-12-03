@@ -1,3 +1,5 @@
 ---
 profiles::puppet::agent::agent_version: "4.6.5"
 profiles::puppet::agent::puppetmaster:  "2.10"
+
+profiles::puppet::master::r10k_version: "xx"

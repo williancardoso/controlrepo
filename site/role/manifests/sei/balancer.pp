@@ -1,8 +1,6 @@
-class role::sei::solr {
+class role::sei::balancer {
 
-  include profile::sei::solr
-  
+  include profile::sei::nginx
   include profile::nfs::client
   include profile::zabbix::agent
-
 }
