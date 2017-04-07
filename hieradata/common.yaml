@@ -1,10 +1,9 @@
 ---
-#profiles::puppet::agent::agent_version: "4.6.5"
-#profiles::puppet::agent::puppetmaster:  "2.10"
-#profiles::puppet::master::r10k_version: "xx"
+profile::puppet::master::r10k_version:       "2.5.4"
 profile::puppet::agent::agent_version:       "1.10.0"
-profile::puppet::agent::puppetserver:        "3.8.7"
+profile::puppet::agent::puppetserver:        "2.7.2"
 profile::puppet::master::autosign:           true
-profile::puppet::master::server_version:     "3.8.7"
-profile::puppet::master::puppetdb_server:    "2.3.8"
-profile::puppet::master::puppetdb_version:   "2.3.8"
+profile::puppet::master::server_version:     "2.7.2"
+profile::puppet::master::puppetdb_server:    "4.4.0"
+profile::puppet::master::puppetdb_version:   "4.4.0"
+profile::puppet::repo_control:                "git@github.com:gutocarvalho/pcp-controlrepo.git" 

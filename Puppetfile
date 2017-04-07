@@ -10,7 +10,9 @@ mod 'puppet-nginx', '0.5.0'
 mod 'michaeltchapman-galera', '0.6.0'
 
 mod 'puppet-hiera', '2.4.0'
+mod 'puppetlabs-inifile', '1.6.0'
 mod 'puppet-r10k', '5.0.1'
+mod 'puppetlabs-git', '0.5.0'
 
 # dependencias
 mod 'puppetlabs/stdlib', '4.13.1'
