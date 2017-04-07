@@ -24,3 +24,7 @@ mod 'garethr-docker', '5.3.0'
 
 # Modulo para o VIM
 mod 'pltraining-userprefs', '1.0.17'
+
+mod 'puppet',
+  :git => 'git@gitlab.com:wvcardoso/puppet-puppet.git'
+  :ref => 'willian'
