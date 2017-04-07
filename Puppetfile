@@ -1,5 +1,6 @@
 forge "https://forgeapi.puppetlabs.com"
 
+mod 'puppetlabs-ntp', '6.0.0'
 mod 'puppetlabs-apache', '1.10.0'
 mod 'puppetlabs-mysql', '3.10.0'
 mod 'echocat-nfs', '1.8.1'
