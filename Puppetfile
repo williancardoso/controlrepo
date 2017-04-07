@@ -9,6 +9,8 @@ mod 'johnlawerance-xtrabackup', '0.2.1'
 mod 'puppet-nginx', '0.5.0'
 mod 'michaeltchapman-galera', '0.6.0'
 
+mod 'puppet-hiera', '2.4.0'
+
 # dependencias
 mod 'puppetlabs/stdlib', '4.13.1'
 mod 'puppetlabs/concat', '2.2.0'
