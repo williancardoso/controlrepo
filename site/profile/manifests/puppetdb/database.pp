@@ -1,12 +1,12 @@
 class profile::puppetdb::database {
 
-  $postgres_version = hiera('profiles::puppetdb::postgres_version')
-  $postgres_package_version = hiera('profiles::puppetdb::postgres_package_version')
+  $postgres_version = hiera('profile::puppetdb::postgres_version')
+  $postgres_package_version = hiera('profile::puppetdb::postgres_package_version')
 
-  $puppetdb_pg_name = hiera('profiles::puppetdb::pgconf::name')
-  $puppetdb_pg_user = hiera('profiles::puppetdb::pgconf::user')
-  $puppetdb_pg_pass = hiera('profiles::puppetdb::pgconf::pass')
-  $puppetdb_pg_host = hiera('profiles::puppetdb::pgconf::host')
+  $puppetdb_pg_name = hiera('profile::puppetdb::pgconf::name')
+  $puppetdb_pg_user = hiera('profile::puppetdb::pgconf::user')
+  $puppetdb_pg_pass = hiera('profile::puppetdb::pgconf::pass')
+  $puppetdb_pg_host = hiera('profile::puppetdb::pgconf::host')
 
   firewall { '100 allow puppetdb database':
     dport  => [5432],

@@ -13,6 +13,7 @@ mod 'michaeltchapman-galera', '0.6.0'
 mod 'puppetlabs/stdlib', '4.13.1'
 mod 'puppetlabs/concat', '2.2.0'
 mod 'puppet-staging', '2.0.1'
+mod 'puppetlabs-firewall', '1.8.2'
 
 # Docker
 mod 'garethr-docker', '5.3.0'

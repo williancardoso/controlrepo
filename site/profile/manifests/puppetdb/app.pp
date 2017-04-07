@@ -1,15 +1,15 @@
 class profile::puppetdb::app {
 
-  $puppetdb_version       = hiera('profiles::puppetdb::version')
-  $database_hostname      = hiera('profiles::puppetdb::database_server_hostname')
-  $database_username      = hiera('profiles::puppetdb::pgconf::user')
-  $database_password      = hiera('profiles::puppetdb::pgconf::pass')
-  $node_ttl               = hiera('profiles::puppetdb::node_ttl', '90d')
-  $report_ttl             = hiera('profiles::puppetdb::report_ttl', '365d')
-  $store_usage            = hiera('profiles::puppetdb::store_usage', 10000)
-  $temp_usage             = hiera('profiles::puppetdb::temp_usage', 5000)
-  $statements_cache_size  = hiera('profiles::puppetdb::statements_cache_size', 0)
-  $java_heap_mem          = hiera('profiles::puppetdb::java_heap_mem','256')
+  $puppetdb_version       = hiera('profile::puppetdb::version')
+  $database_hostname      = hiera('profile::puppetdb::database_server_hostname')
+  $database_username      = hiera('profile::puppetdb::pgconf::user')
+  $database_password      = hiera('profile::puppetdb::pgconf::pass')
+  $node_ttl               = hiera('profile::puppetdb::node_ttl', '90d')
+  $report_ttl             = hiera('profile::puppetdb::report_ttl', '365d')
+  $store_usage            = hiera('profile::puppetdb::store_usage', 10000)
+  $temp_usage             = hiera('profile::puppetdb::temp_usage', 5000)
+  $statements_cache_size  = hiera('profile::puppetdb::statements_cache_size', 0)
+  $java_heap_mem          = hiera('profile::puppetdb::java_heap_mem','256')
 
   validate_integer($statements_cache_size)
 

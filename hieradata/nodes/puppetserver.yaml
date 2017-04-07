@@ -1,0 +1,3 @@
+---
+profile::puppet::agent::agent_version:   "1.10.0"
+profile::puppet::agent::puppetserver:    "3.8.7"

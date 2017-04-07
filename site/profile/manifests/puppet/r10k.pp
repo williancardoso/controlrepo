@@ -1,6 +1,6 @@
 class profile::puppet::r10k {
 
-  $version = hiera('profiles::puppet::master::r10k_version')
+  $version = hiera('profile::puppet::master::r10k_version')
 
   file {'/etc/puppetlabs/r10k':
     ensure => directory,

@@ -1,7 +1,7 @@
 class profile::puppet::agent {
 
-  $agent_version  = hiera('profiles::puppet::agent::agent_version')
-  $puppetmaster   = hiera('profiles::puppet::agent::puppetmaster')
+  $agent_version  = hiera('profile::puppet::agent::agent_version')
+  $puppetmaster   = hiera('profile::puppet::agent::puppetserver')
 
   class { 'puppet':
     runmode       => 'service',

@@ -3,7 +3,7 @@ class profile::puppetdb::frontend  {
   include profile::puppetdb::apache
   include puppetboard
 
-  $puppetexplorer_version = hiera('profiles::puppetexplorer::version')
+  $puppetexplorer_version = hiera('profile::puppetexplorer::version')
 
   class { 'puppetexplorer':
     package_ensure => $puppetexplorer_version,

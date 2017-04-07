@@ -1,11 +1,11 @@
 class profile::puppet::server {
 
-  $agent_version          = hiera('profiles::puppet::agent::agent_version')
-  $puppetmaster           = hiera('profiles::puppet::agent::puppetmaster')
-  $puppetmaster_autosign  = hiera('profiles::puppet::master::autosign')
-  $server_version         = hiera('profiles::puppet::master::server_version')
-  $puppetdb_server        = hiera('profiles::puppet::master::puppetdb_server')
-  $puppetdb_version       = hiera('profiles::puppet::master::puppetdb_version')
+  $agent_version          = hiera('profile::puppet::agent::agent_version')
+  $puppetmaster           = hiera('profile::puppet::agent::puppetserver')
+  $puppetmaster_autosign  = hiera('profile::puppet::master::autosign')
+  $server_version         = hiera('profile::puppet::master::server_version')
+  $puppetdb_server        = hiera('profile::puppet::master::puppetdb_server')
+  $puppetdb_version       = hiera('profile::puppet::master::puppetdb_version')
 
   $jruby_instances = $::processorcount * 2
 
