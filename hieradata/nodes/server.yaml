@@ -1,0 +1,7 @@
+---
+profile::puppet::agent::agent_version:   "1.10.0"
+profile::puppet::agent::puppetserver:    "3.8.7"
+profile::puppet::master::autosign:       true
+profile::puppet::master::server_version:  "3.8.7"
+profile::puppet::master::puppetdb_server:  "2.3.8"
+profile::puppet::master::puppetdb_version: "2.3.8"
