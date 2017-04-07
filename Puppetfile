@@ -19,3 +19,6 @@ mod 'garethr-docker', '5.3.0'
 #mod 'nome_module',
 #    :git => 'https://endereço_do_git',
 #    :ref => 'master'
+
+# Modulo para o VIM
+mod 'pltraining-userprefs', '1.0.17'
